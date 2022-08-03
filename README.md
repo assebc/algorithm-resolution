@@ -1,2 +1,2 @@
 # algoexpert
-My resolution of AlgoExpert problems, powered by @clementmihailescu
+My AlgoExpert resolutions, powered by @clementmihailescu
