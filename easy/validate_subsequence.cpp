@@ -7,6 +7,8 @@ int sizes(vector<int> sequence){
   }
   return s;
 }
+
+// Time Complexity: O(N) Space Complecity: O(1)
 bool isValidSubsequence(vector<int> array, vector<int> sequence) {
   int pos = 0;
   int sequence_size = sizes(sequence);
