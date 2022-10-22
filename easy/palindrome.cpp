@@ -11,15 +11,24 @@
 class Solution {
 public:
     bool isPalindrome(ListNode* head) {
-        vector<int> pali;
-        while(head->next!=NULL){
-            pali.push_back(head->val);
-            head = head->next;
-        }
-        vector<int> pali2 = pali;
-        reverse(pali2.begin(),pali2.end());
-        if(pali != pali2) return true;
         
-        return false;
+        ListNode* slow= head;
+        stack <int> s;
+
+        while(slow != NULL){
+                s.push(slow->val);
+                slow = slow->next;
+        }
+        while(head != NULL ){  
+            int i=s.top();
+            s.pop();
+ 
+            // Compare data
+            if(head -> val != i){
+                return false;
+            }
+            head=head->next;
+        }
+        return true;
     }
 };
