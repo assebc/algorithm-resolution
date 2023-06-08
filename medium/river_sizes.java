@@ -21,7 +21,4 @@ class Program {
     size += right + left + top + bot + 1;
     return size;
   }
-  
 }
-
-
