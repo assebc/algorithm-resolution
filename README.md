@@ -1,2 +1,2 @@
 # algorithm-resolution
-My AlgoExpert and LeetCode resolutions, powered by @clementmihailescu and rest of @algoexpert team🧠
+My AlgoExpert resolutions, powered by @clementmihailescu and rest of @algoexpert team🧠
